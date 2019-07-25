@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>Todoリスト</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <script defer src="main.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Todoリスト</a>
+    </div>
+</nav>
+
+<div class="container">
+    <form class="form-inline my-5">
+        <div class="form-group mr-2 w-50">
+            <label for="input-todo-box" class="sr-only">タイトル</label>
+            <input type="text" class="form-control w-100" id="input-todo-box" placeholder="タスクを入力してください">
+        </div>
+        <button type="button" class="btn btn-primary" id="add-button">追加</button>
+    </form>
+
+    <div id="todo-list"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+// テーマカラー設定
+$theme-colors: (
+        "primary": #1745a3,
+        "secondary": #eff2f5
+);
+
+// 角丸の無効化
+$enable-rounded: false;
+
+// bootstrapをインポート
+@import "~bootstrap/scss/bootstrap.scss";
