@@ -10,4 +10,7 @@ npm i
 
 # build for production with minification
 npm run build
+
+# build for production with minification if there is a change
+npm run watch
 ```
